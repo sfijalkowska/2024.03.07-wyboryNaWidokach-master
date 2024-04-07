@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post">
+    <select th:field="*{model.select}">
+        <option th:value="wartosc1" th:text="'Opcja 1'"></option>
+        <option th:value="wartosc2" th:text="'Opcja 2'"></option>
+        <option th:value="wartosc3" th:text="'Opcja 3'"></option>
+        <option th:value="wartosc4" th:text="'Opcja 4'"></option>
+        <option th:value="wartosc5" th:text="'Opcja 5'"></option>
+    </select>
+    <input type="submit" value="OK">
+</form>
+</body>
+</html>
